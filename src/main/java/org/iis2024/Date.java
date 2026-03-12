@@ -20,6 +20,10 @@ public class Date {
   private final int month;
   private final int year;
 
+  public String toString(){
+    return "Date{" + "day=" + day + ", month=" + month + ", year=" + year + '}';
+  }
+
   /**
    * Retrieves the day component of this date.
    *
